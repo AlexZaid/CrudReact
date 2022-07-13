@@ -4,7 +4,7 @@ import Tables from './Components/Tables';
 import Headers from './Components/Headers';
 import dummy_expenses from './Components/DataInfo';
 
-function App() {
+const App = () => {
   return (
     <>
       <Headers />
@@ -17,5 +17,5 @@ function App() {
       </Container>
     </>
   );
-}
+};
 export default App;
